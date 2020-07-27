@@ -1,0 +1,279 @@
+@media screen and (max-width: 1200px) {
+  .contacts:last-child {
+  float: right;
+  }
+  .adv__text {
+    font-size: 14px;
+  }
+  .comunication {
+    margin: 0px;
+    box-shadow: none;
+  }
+  .contacts__dashed {
+    margin: 0px;
+    border-bottom: none;
+  }
+  .contacts__num {
+    margin-top: 0px;
+  }
+  .phone__size {
+    margin-left: 160px;
+  }
+  .house__text {
+    width: 45%;
+  }
+  .house__text_second {
+    padding-top: 100px;
+  }
+  .carousel__size {
+    display: block;
+    margin:  0 auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+  .navbar-nav {
+    margin-left: 4.5%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .adv__item:last-child {
+    margin-top: 20px;
+  }
+  .city__block {
+    width: 100%;
+  }
+  .city__text {
+    font-size: 14px;
+  }
+  .carousel__text_item:nth-child(2) {
+    margin: 0 45px 0 45px;
+  }
+  .carousel__size {
+    width: 700px;
+  }
+  .carousel__img img {
+    top: 55px;
+  }
+  .carousel__inf {
+    margin-left: 170px;
+  }
+  .carousel-control-next {
+    right: -70px;
+  }
+  .carousel-control-prev {
+    left: -80px;
+  }
+  .phone__size {
+    margin-left: 55px;
+  }
+  .order__input {
+    width:100%;
+  }
+  .order__btn {
+    width: 100%;
+  }
+  .comunication {
+    padding: 0px;
+  }
+  .contacts__title {
+    margin-top: 50px;
+  }
+  .nav-link:hover {
+    background: none;
+  }
+  .navbar-nav {
+    margin-left: 30px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+    left: 54%;
+  }
+  .main__subtitle {
+    font-size: 45px;
+    left: 55%;
+  }
+  .city__text {
+    font-size: 13px;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel__size {
+    width: 444px;
+    padding: 0px 37px 25px 37px;
+  }
+  .carousel__text_item {
+    display: block;
+  }
+  .carousel__text {
+    padding: 0px 0 20px 0;
+  }
+  .carousel__text_item:nth-child(2) {
+    margin: 8px 0;
+  }
+  .carousel__img img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 0px;
+  }
+  .carousel__text {
+    display: table;
+    margin: 0 auto;
+  }
+  .carousel__inf {
+    margin: 0px;
+    text-align: center;
+    padding-top: 22px;
+  }
+  .footer__text {
+    float: right;
+  }
+  .move__arrow_second {
+    margin-top: 5px;
+  }
+  .media__item {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    background-position: center top;
+    padding-top: 50px;
+  }
+  .house__text {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .house__text_second {
+    padding-top: 0px;
+  }
+  .house__item {
+    float: none;
+  }
+  .house__img img:last-child {
+    float: none;
+  }
+  .house__img img {
+    display: block;
+    margin: 0 auto;
+  }
+  .house__img_first {
+    float: none;
+  }
+}
+
+@media(min-width: 576px) and (max-width: 992px) {
+  h1 {
+    top: 56%;
+  }
+  .main__subtitle {
+    top: 56%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    left: 67%;
+  }
+  .main__subtitle {
+    font-size: 40px;
+    left: 60%;
+  }
+  .move__box {
+     height: 205px;
+  }
+  .move__arrow_second {
+    margin-top: 75px;
+  }
+  .city__text {
+    font-size: 11.5px;
+  }
+  .city__text:last-child {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 553px) {
+  h1 {
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    letter-spacing: 10px;
+    margin-top: -200px;
+  }
+  .main__subtitle {
+    font-size: 40px;
+    left: 0px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+  }
+  .move__arrow_second {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  h1 {
+    font-size: 45px;
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    letter-spacing: 10px;
+  }
+  .main__subtitle {
+    font-size: 35px;
+    left: 0px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .move__arrow_second {
+    margin-top: 20px;
+  }
+  .title_size {
+    font-size: 40px;
+  }
+  .carousel__size {
+    width: 280px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .form__input, .form__btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .box__text {
+    margin-top: 9px;
+  }
+}

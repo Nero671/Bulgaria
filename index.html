@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bulgaria</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body>
+    <header id="Bulgaria">
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brad">
+            <img src="img/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">
+                  Главная
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">
+                  О компании
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="move.html" class="nav-link">
+                  Недвижимость и переезд
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="contacts.html" class="nav-link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="clearfix d-none d-lg-block">
+            <li class="phone__icon contacts">
+              <a href="#form" onclick="show('block')">
+                <i class="fa fa-phone fa-rotate-90"></i>
+              </a>
+            </li>
+            <li class="phone__number contacts">
+              +7 (495) 12-321-345 <br>
+              +7 (495) 12-321-345
+            </li>
+          </ul>
+        </div>
+      </nav>
+        <div class="order" id="form">
+          <span class="close cross" onclick="show('none')">X</span>
+          <h2 class="white order__title">
+            <span>Есть вопросы</span> <br>
+            по переезду в Болгарию?
+          </h2>
+          <div class="white order__text">
+            Мы проконсультируем <br>
+            Вас бесплатно!
+          </div>
+          <form class="form" action="index.html" method="post">
+            <input type="text" class=" order__input" placeholder="Имя" required id="name">
+            <input type="email" class="order__input" placeholder="E-email" required id="email">
+            <input type="tel" class="order__input" placeholder="Телефон" required id="tel">
+            <button type="submit" name="button" class="button order__btn wow pulse">
+              Заказать консультацию
+            </button>
+          </form>
+        </div>
+        <h1 class="wow fadeInDown">
+          Болгария
+        </h1>
+        <div class="main__subtitle wow fadeInDown">
+          Ждет вас
+        </div>
+        <div class="arrow">
+          <a href="#second" class="scroll">
+            <i class="fa fa-angle-down"></i>
+          </a>
+        </div>
+    </header>
+    <section id="second">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="wow fadeInRight">
+              Наши преимущества
+            </h2>
+          </div>
+        </div>
+        <div class="adv">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="adv__item text-center wow fadeInRight">
+                <div class="adv__img">
+                  <img src="img/hands.png" alt="Преимущества">
+                </div>
+                <div class="adv__title">
+                  Надежность
+                </div>
+                <div class="adv__text">
+                  Мы всегда придем к вам на помощь
+                  в решении самых неоднозначных
+                  вопросов
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="adv__item text-center wow fadeInLeft">
+                <div class="adv__img">
+                  <img src="img/schedule.png" alt="Преимущества">
+                </div>
+                <div class="adv__title">
+                  Достоверность
+                </div>
+                <div class="adv__text">
+                  Достоверность - главный принцип
+                  нашей работы. Мы знаем все тонкости
+                  переезда в Болгарию и оформления  соответствущих документов
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="adv__item text-center wow fadeInRight">
+                <div class="adv__img">
+                  <img src="img/people.png" alt="Преимущества" class="img__poss">
+                </div>
+                <div class="adv__title">
+                  Компетентность
+                </div>
+                <div class="adv__text">
+                  Наши специалисты с большим опытом
+                  работы помогут разобраться во всех  юридических тонкостях переезда
+                  на ПМЖ в Болгарию
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="move">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="fadeInRight wow">
+              Переезд в Болгарию
+            </h2>
+          </div>
+        </div>
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <div class="move__quote wow fadeInRight">
+                <i>«Если Вам не нравится то место, где вы находитесь - <br>
+                смените его, Вы же не дерево» </i> <br>
+                <b>Джим Рон</b>
+              </div>
+              <div class="row">
+                <div class="col-md-12 col-lg-12 col-xl-8 offset-xl-2">
+                  <div class="move__box">
+                    <div class="move__arrow">
+                      <i class="fa fa-caret-down"></i>
+                    </div>
+                      <div class="box__text">
+                        Пришло время и перед вами стоит вопрос
+                      </div>
+                      <div class="box__text_bold">
+                        Как переехать в болгарию на ВНж или ПМЖ?
+                      </div>
+                      <div class="move__arrow move__arrow_second">
+                        <i class="fa fa-caret-down"></i>
+                      </div>
+                    </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <h2 class="move__title wow fadeInRight">
+                Мы знаем ответ
+              </h2>
+              <div class="move__sub wow fadeInRight">
+                Подберем для Вас оптимальный вариант и предложим лучшие условия!
+              </div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <div class="move__button">
+                <a href="#" class="button wow pulse">
+                  Узнать больше
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="city">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="wow fadeInRight">
+              Недвижимость и транспортные услуги
+            </h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <div class="wrapper">
+              <div class="wrapper__imgs">
+                <img src="img/city1.png" alt="Недвижимость" class="wrapper__img_1">
+                <img src="img/city2.png" alt="Недвижимость" class="wrapper__img_2">
+                <img src="img/city3.png" alt="Недвижимость" class="wrapper__img_3">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-12 col-xl-8 offset-xl-2">
+            <div class="city">
+            <div class="city__block">
+              <div class="city__text">
+                <span>Мечтаете о доме на Солнечном берегу?</span>
+                <br>
+                Или хотите выгодно инвестировать в  заграничную недвижимость? В любом случае
+                подходящий вариант уже ждет Вас! Большой выбор объектов жилой и коммерческой
+                недвижимости и профессиональный сервис позволит провести сделку с
+                удовольствием и получить нужный результат
+              </div>
+            </div>
+              <div class="city__round">
+                <img src="img/wheel.png" alt="">
+              </div>
+              <div class="city__block">
+                <div class="city__text">
+                  Если Ваши чемоданы уже собраны и Вы готовы к переезду, рады предложить Вам
+                  транспортные услуги по перевозке личный вещей в Болгарию. Для успешного размещения
+                  на новом месте жительства мы поможем перевести Ваши вещи в сохранности
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <div class="city__button">
+              <a href="#" class="button city__btn wow pulse">
+                Узнать больше
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="wow fadeInRight">
+              Отзывы наших клиентов
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-xl-8 offset-xl-2">
+            <div id="carouselExampleIndicators" class="carousel slide carousel__size"  data-ride="carousel">
+              <ol class="carousel-indicators carousel__round">
+                <li class="round__item" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                <li class="round__item active" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li class="round__item" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <div class="carousel__bg">
+                    <div class="carousel__img">
+                      <img src="img/girl.png" alt="Фото">
+                    </div>
+                    <div class="carousel__inf">
+                      <ul class="carousel__text">
+                        <li class="carousel__text_item">
+                          Диана Апасова
+                        </li>
+                        <li class="carousel__text_item">
+                          <a href="vk.com/APASOVA">
+                            vk.com/APASOVA
+                          </a>
+                        </li>
+                        <li class="carousel__text_item">
+                          Москва <i class="fa fa-arrow-right"></i> София
+                        </li>
+                      </ul>
+                      <div class="carousel__text_about">
+                       <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse-
+                       quat. Duis aute irure dolor in reprehenderit in</i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <div class="carousel__bg">
+                    <div class="carousel__img">
+                      <img src="img/girl.png" alt="Фото">
+                    </div>
+                    <div class="carousel__inf">
+                      <ul class="carousel__text">
+                        <li class="carousel__text_item">
+                          Диана Апасова
+                        </li>
+                        <li class="carousel__text_item">
+                          <a href="vk.com/APASOVA">
+                            vk.com/APASOVA
+                          </a>
+                        </li>
+                        <li class="carousel__text_item">
+                          Москва <i class="fa fa-arrow-right"></i> София
+                        </li>
+                      </ul>
+                      <div class="carousel__text_about">
+                       <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse-
+                       quat. Duis aute irure dolor in reprehenderit in</i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel__bg">
+                    <div class="carousel__img">
+                      <img src="img/girl.png" alt="Фото">
+                    </div>
+                    <div class="carousel__inf">
+                      <ul class="carousel__text">
+                        <li class="carousel__text_item">
+                          Диана Апасова
+                        </li>
+                        <li class="carousel__text_item">
+                          <a href="vk.com/APASOVA">
+                            vk.com/APASOVA
+                          </a>
+                        </li>
+                        <li class="carousel__text_item">
+                          Москва <i class="fa fa-arrow-right"></i> София
+                        </li>
+                      </ul>
+                      <div class="carousel__text_about">
+                       <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse-
+                       quat. Duis aute irure dolor in reprehenderit in</i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Previous</span>
+               </a>
+               <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="prev">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Next</span>
+               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="order">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="white wow fadeInRight">
+              Есть вопросы <br>
+              по переезду в Болгарию?
+            </h2>
+            <div class="order__sub">
+              Мы проконсультируем <br>
+              Вас бесплатно!
+            </div>
+            <div class="move__arrow order__arrow">
+              <i class="fa fa-caret-down"></i>
+            </div>
+            <form class="form" action="index.html" method="post">
+              <input type="text" name="fio" class="form__input" placeholder="Имя" required id="name">
+              <input type="email" name="email" class="form__input" placeholder="E-email" required id="email">
+              <input type="tel" name="tel" class="form__input" placeholder="Телефон" required id="tel">
+              <button type="submit" name="button" class="form__btn button wow pulse">
+                Заказать консультацию
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-3">
+              <img src="img/logo.png" alt="COMPASS" class="logo">
+          </div>
+          <div class="col-sm-8 col-md-4 col-lg-3 d-none d-sm-block">
+            <div class="footer__text">
+              2016 / все права защищены
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <div class="footer__text border__dashed d-none d-md-block">
+              Политика конфиденциальности
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <ul class="clearfix">
+              <li class="phone__icon icon__white contacts d-none d-xl-block">
+                <i class="fa fa-phone fa-rotate-90 white"></i>
+              </li>
+              <li class="phone__number contacts d-none d-lg-block">
+                +7 (495) 12-321-345 <br>
+                +7 (495) 12-321-345
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
